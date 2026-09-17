@@ -7,19 +7,8 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-09-17T17:56:02.897090+00:00'
+generated-at: '2026-09-17T20:57:10.839660+00:00'
 proxies:
-- name: 🇯🇵 日本 | JPN 3
-  server: 8.211.175.129
-  port: 443
-  type: hysteria2
-  password: 0bffb8e71bca29788862f986caae97b3
-  auth: 0bffb8e71bca29788862f986caae97b3
-  sni: 8.211.175.129
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: 5c8f1a3e7b2d9046c1f8a5e3b7d04f2a
-  udp: true
 - name: 🇸🇬 新加坡 | SGP
   server: 172.64.146.211
   port: 8443
@@ -48,20 +37,6 @@ proxies:
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
   udp: true
-- name: 🇸🇬 新加坡 | SGP 4
-  server: 172.64.146.211
-  port: 2087
-  type: vless
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  tls: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  udp: true
 - name: 🇯🇵 日本 | JPN
   server: 1-jp.ap.ku-ke.cc
   port: 443
@@ -75,6 +50,20 @@ proxies:
   servername: cdn.jsdelivr.net
   client-fingerprint: chrome
   network: tcp
+  udp: true
+- name: 🇸🇬 新加坡 | SGP 4
+  server: 172.64.146.211
+  port: 2087
+  type: vless
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  tls: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
   udp: true
 - name: 🇺🇸 美国 | USA 8
   server: 172.64.146.211
@@ -101,13 +90,6 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  udp: true
-- name: 🇺🇸 美国 | USA 6
-  server: 129.146.112.109
-  port: 50356
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: w7iS/IiaXU91y57t4KbfBGELydrLtztiCsqlXF9TO5g=
   udp: true
 - name: 🇺🇸US美国丨yoyapai.com
   type: trojan
@@ -211,20 +193,6 @@ proxies:
     headers:
       Host: or.mirikhan.dpdns.org
   udp: true
-- name: 🇹🇷 土耳其 | TUR
-  server: 104.21.51.132
-  port: 8080
-  type: vless
-  uuid: 466e1cca-4892-4723-be2e-98e2e1c4fbfa
-  tls: false
-  encryption: mlkem768x25519plus.native.0rtt.kb4hYiGUKg5WzaQoI-0tORczqrfOJRdLGdeU8JAX2U4
-  network: ws
-  ws-opts:
-    path: /play
-    headers:
-      Host: tr-ht21.th3store.ir
-    v2ray-http-upgrade: true
-  udp: true
 - name: 🇩🇰 丹麦 | DNK
   server: se.xiaoliyu.cyou
   port: 4433
@@ -232,17 +200,6 @@ proxies:
   password: 19f72087-4591-4d72-930b-2697078ec2be
   auth: 19f72087-4591-4d72-930b-2697078ec2be
   skip-cert-verify: true
-- name: 🇦🇺 澳大利亚 | AUS
-  server: 161.33.238.147
-  port: 20000
-  type: hysteria2
-  password: b42d90fa667942aebc734d60
-  auth: b42d90fa667942aebc734d60
-  sni: rmgyvpn.rest
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: b42d90fa667942aebc734d60
-  ports: 20000-30000
 - name: 🇦🇺AU澳大利亚丨yoyapai.com
   type: vless
   server: 163.8.195.241
@@ -270,28 +227,6 @@ proxies:
     short-id: c39cc7310a
   skip-cert-verify: false
   udp: true
-- name: 🇦🇺 澳大利亚 | AUS 2
-  server: 161.33.229.208
-  port: 20000
-  type: hysteria2
-  password: a34f3990b69f44bfa0d32385
-  auth: a34f3990b69f44bfa0d32385
-  sni: rmgyvpn.rest
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: a34f3990b69f44bfa0d32385
-  ports: 20000-30000
-- name: 🇧🇷 巴西 | BRA
-  server: 137.131.167.179
-  port: 20000
-  type: hysteria2
-  password: CyG0RFxMjzs41uQD4OLuHQ==
-  auth: CyG0RFxMjzs41uQD4OLuHQ==
-  sni: rmgyvpn.rest
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: CyG0RFxMjzs41uQD4OLuHQ==
-  ports: 20000-30000
 - name: 🇬🇧 英国 | GBR 2
   server: 129.151.92.18
   port: 61312
@@ -311,13 +246,6 @@ proxies:
   - h3
   obfs: salamander
   obfs-password: jogbnkm2l0c5v0cw
-- name: 🇳🇱 荷兰 | NLD 12
-  server: 134.98.157.187
-  port: 45819
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: bYZxXnOeeGcKITW1Vl1/RQ8pyUsC3OuNQoKxcRkABrM=
-  udp: true
 - name: 🇫🇷 法国 | FRA 2
   server: vpn-fr-002.fastervpn.world
   port: 443
@@ -326,32 +254,12 @@ proxies:
   auth: H7mP2xY9kJ4nQ8wR5tF6vB3z
   sni: vpn-fr-002.fastervpn.world
   skip-cert-verify: true
-- name: 🇷🇺RU俄罗斯
-  type: vmess
-  server: renderer-stream-2-62.mirra.now
-  port: 443
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /api/v1/gpu-stream/socket
-  udp: true
 - name: 🇬🇧 英国 | GBR
   server: 129.151.66.210
   port: 61312
   type: ss
   cipher: 2022-blake3-chacha20-poly1305
   password: RsOf4rCN1x4ccrOrmu9aOAoAFZzvxGunwxrf2ZNoBgM=
-  udp: true
-- name: 🇳🇱 荷兰 | NLD 5
-  server: 92.5.228.170
-  port: 45819
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: WxECxHlU2Cha2DHZqeQQLe0ruuNG4IBvbCAcwzStCbA=
   udp: true
 - name: 🇪🇸 西班牙 | ESP
   server: es1.xiaoliyu.cyou
@@ -364,14 +272,12 @@ proxy-groups:
 - name: AUTO-FAST
   type: url-test
   proxies:
-  - 🇯🇵 日本 | JPN 3
   - 🇸🇬 新加坡 | SGP
   - 🇸🇬 新加坡 | SGP 2
-  - 🇸🇬 新加坡 | SGP 4
   - 🇯🇵 日本 | JPN
+  - 🇸🇬 新加坡 | SGP 4
   - 🇺🇸 美国 | USA 8
   - 🇺🇸 美国 | USA 16
-  - 🇺🇸 美国 | USA 6
   - 🇺🇸US美国丨yoyapai.com
   - 🇺🇸 美国 | USA 12
   - 🇺🇸 美国 | USA 2
@@ -380,37 +286,29 @@ proxy-groups:
   - 🇮🇱 以色列 | ISR
   - 🇷🇺 俄罗斯 | RUS
   - 🇩🇪 德国 | DEU 3
-  - 🇹🇷 土耳其 | TUR
   - 🇩🇰 丹麦 | DNK
-  - 🇦🇺 澳大利亚 | AUS
   - 🇦🇺AU澳大利亚丨yoyapai.com
   - 🇩🇪DE德国丨yoyapai.com_13
-  - 🇦🇺 澳大利亚 | AUS 2
-  - 🇧🇷 巴西 | BRA
   - 🇬🇧 英国 | GBR 2
   - 🇫🇷 法国 | FRA 4
-  - 🇳🇱 荷兰 | NLD 12
   - 🇫🇷 法国 | FRA 2
-  - 🇷🇺RU俄罗斯
   - 🇬🇧 英国 | GBR
-  - 🇳🇱 荷兰 | NLD 5
   - 🇪🇸 西班牙 | ESP
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: HK-POOL
   type: url-test
   proxies:
-  - 🇯🇵 日本 | JPN 3
   - 🇸🇬 新加坡 | SGP
   - 🇸🇬 新加坡 | SGP 2
-  - 🇸🇬 新加坡 | SGP 4
   - 🇯🇵 日本 | JPN
+  - 🇸🇬 新加坡 | SGP 4
+  - 🇺🇸 美国 | USA 8
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: JP-POOL
   type: url-test
   proxies:
-  - 🇯🇵 日本 | JPN 3
   - 🇯🇵 日本 | JPN
   url: http://www.gstatic.com/generate_204
   interval: 120
@@ -419,7 +317,6 @@ proxy-groups:
   proxies:
   - 🇺🇸 美国 | USA 8
   - 🇺🇸 美国 | USA 16
-  - 🇺🇸 美国 | USA 6
   - 🇺🇸US美国丨yoyapai.com
   - 🇺🇸 美国 | USA 12
   - 🇺🇸 美国 | USA 2
@@ -430,8 +327,6 @@ proxy-groups:
   proxies:
   - 🇺🇸US美国丨yoyapai.com
   - 🇸🇬 新加坡 | SGP 4
-  - 🇺🇸 美国 | USA 12
-  - 🇸🇬 新加坡 | SGP
   - 🇸🇬 新加坡 | SGP 2
   - 🇺🇸 美国 | USA 8
   url: http://www.gstatic.com/generate_204
