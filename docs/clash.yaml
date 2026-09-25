@@ -7,7 +7,7 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-09-25T19:26:10.897795+00:00'
+generated-at: '2026-09-25T22:39:26.872512+00:00'
 proxies:
 - name: 🇯🇵 日本 | JPN 2
   server: 43.167.208.94
@@ -23,6 +23,13 @@ proxies:
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
+- name: 🇯🇵 日本 | JPN 4
+  server: 3.112.209.209
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  udp: true
 - name: 🇸🇬 新加坡 | SGP
   server: 163.128.99.57
   port: 443
@@ -36,13 +43,6 @@ proxies:
   servername: www.apple.com
   client-fingerprint: safari
   network: tcp
-  udp: true
-- name: 🇯🇵 日本 | JPN 4
-  server: 3.112.209.209
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
   udp: true
 - name: 🇺🇸 美国 | USA 9
   server: 161.35.187.182
@@ -93,19 +93,36 @@ proxies:
   auth: 488b2611852407f03a681927cb91804b
   sni: cf.shiranyu.xyz
   skip-cert-verify: true
-- name: 🇺🇸 美国 | USA 3
-  server: cos-cdn-a.alicdn.win
+- name: 🇺🇸 美国 | USA 13
+  server: 54.162.206.255
   port: 443
-  type: vless
-  uuid: 52fa48c9-1c1f-4c24-badb-ad92c18e6f92
-  tls: true
-  servername: mms-static-rr6asx-e.oppocdn.sbs
-  client-fingerprint: safari
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇺🇸 美国 | USA 17
+  server: 45.32.128.44
+  port: 2095
+  type: vmess
+  uuid: 1da76fea-2360-40d7-99ce-7374971808bb
+  alterId: 0
+  cipher: auto
+  tls: false
+  alpn:
+  - ''
+  skip-cert-verify: true
+  servername: www.bing.com
   network: ws
   ws-opts:
-    path: /newlogin/login.do
+    path: 1da76fea-2360-40d7-99ce-7374971808bb-vm
     headers:
-      Host: mms-static-edio-e.oppocdn.sbs
+      Host: www.bing.com
+  udp: true
+- name: 🇺🇸 美国 | USA 18
+  server: 18.205.21.144
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 🇺🇸US美国丨yoyapai.com
   type: trojan
   server: 216.24.57.7
@@ -118,12 +135,6 @@ proxies:
   ws-opts:
     path: /assignment
   udp: true
-- name: 🇺🇸 美国 | USA 18
-  server: 18.205.21.144
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 🇺🇸 美国 | USA 2
   server: 18.234.148.112
   port: 443
@@ -167,18 +178,14 @@ proxies:
   client-fingerprint: chrome
   network: tcp
   udp: true
-- name: 🇦🇪 阿联酋 | ARE 2
-  server: 139.185.44.42
-  port: 8443
+- name: 🇲🇩 摩尔多瓦 | MDA
+  server: md-new.failspace.top
+  port: 443
   type: vless
-  uuid: b0fa80ad-d759-4bcc-a0fd-f802d53b5a88
+  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
   tls: true
   flow: xtls-rprx-vision
-  reality-opts:
-    public-key: VlWMFvYxwGIsctI7BfOgC4PCG3EMToD7_H8vWcRB42w
-    short-id: 855834d3b002ad21
-  servername: www.microsoft.com
-  client-fingerprint: firefox
+  client-fingerprint: chrome
   network: tcp
   udp: true
 - name: 🇸🇪 瑞典 | SWE 3
@@ -187,42 +194,12 @@ proxies:
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 🇳🇱 荷兰 | NLD
-  server: 132.243.121.9
-  port: 443
-  type: vless
-  uuid: cb9bc521-77a2-4c23-9bbf-b8d5318e717d
-  tls: true
-  reality-opts:
-    public-key: --pxBStu9Lk1PFAsYbzTg5vBZKXtzdcOlmrpw9pen1s
-    short-id: 0812e28665a36091
-  servername: ads.x5.ru
-  client-fingerprint: chrome
-  network: xhttp
-  xhttp-opts:
-    path: /
-    host: ads.x5.ru
-  udp: true
 - name: 🇸🇪 瑞典 | SWE 2
   server: 51.20.86.152
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 🇱🇻LV拉脱维亚丨yoyapai.com
-  type: vless
-  server: 193.163.203.170
-  port: 443
-  uuid: 11aabba0-5fd1-4f15-8068-74c1a466cefc
-  servername: yandex.ru
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: GCCZ1ZZjB_nj7yxqFi22bIIWWr_G6rnWUzDcssN_40o
-    short-id: b28db60d77c50b4f
-  skip-cert-verify: false
-  udp: true
 - name: 🇮🇱 以色列 | ISR
   server: platform102.golnamakcert.top
   port: 80
@@ -253,19 +230,17 @@ proxies:
   client-fingerprint: chrome
   network: tcp
   udp: true
-- name: 🇵🇱PL波兰丨yoyapai.com
+- name: 🇦🇺AU澳大利亚丨yoyapai.com
   type: vless
-  server: 176.123.161.222
-  port: 9892
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  network: grpc
-  servername: dl.google.com
-  tls: true
-  client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-  reality-opts:
-    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+  server: 163.8.195.241
+  port: 2087
+  uuid: 56ba5d34-ef22-4ba6-8090-4188b807df54
+  network: ws
+  tls: false
+  ws-opts:
+    path: /29c8fed7ca22
+    headers:
+      Host: /?--v2rayNplus--v2rayNplus--v2rayNplus--
   skip-cert-verify: false
   udp: true
 - name: 🇸🇪 瑞典 | SWE
@@ -310,28 +285,27 @@ proxy-groups:
   proxies:
   - 🇯🇵 日本 | JPN 2
   - 🇯🇵 日本 | JPN 3
-  - 🇸🇬 新加坡 | SGP
   - 🇯🇵 日本 | JPN 4
+  - 🇸🇬 新加坡 | SGP
   - 🇺🇸 美国 | USA 9
   - 🇺🇸 美国 | USA 8
   - 🇺🇸 美国 | USA 16
   - 🇺🇸 美国 | USA 6
-  - 🇺🇸 美国 | USA 3
-  - 🇺🇸US美国丨yoyapai.com
+  - 🇺🇸 美国 | USA 13
+  - 🇺🇸 美国 | USA 17
   - 🇺🇸 美国 | USA 18
+  - 🇺🇸US美国丨yoyapai.com
   - 🇺🇸 美国 | USA 2
   - 🇮🇱 以色列 | ISR 3
   - 🇧🇪 比利时 | BEL
   - 🇮🇷 伊朗 | IRN
-  - 🇦🇪 阿联酋 | ARE 2
+  - 🇲🇩 摩尔多瓦 | MDA
   - 🇸🇪 瑞典 | SWE 3
-  - 🇳🇱 荷兰 | NLD
   - 🇸🇪 瑞典 | SWE 2
-  - 🇱🇻LV拉脱维亚丨yoyapai.com
   - 🇮🇱 以色列 | ISR
   - 🇷🇺 俄罗斯 | RUS
   - 🇦🇹 奥地利 | AUT
-  - 🇵🇱PL波兰丨yoyapai.com
+  - 🇦🇺AU澳大利亚丨yoyapai.com
   - 🇸🇪 瑞典 | SWE
   - 🇮🇱 以色列 | ISR 2
   - 🇩🇪DE德国丨yoyapai.com_12
@@ -342,8 +316,8 @@ proxy-groups:
   proxies:
   - 🇯🇵 日本 | JPN 2
   - 🇯🇵 日本 | JPN 3
-  - 🇸🇬 新加坡 | SGP
   - 🇯🇵 日本 | JPN 4
+  - 🇸🇬 新加坡 | SGP
   - 🇺🇸 美国 | USA 9
   url: http://www.gstatic.com/generate_204
   interval: 120
@@ -362,9 +336,10 @@ proxy-groups:
   - 🇺🇸 美国 | USA 8
   - 🇺🇸 美国 | USA 16
   - 🇺🇸 美国 | USA 6
-  - 🇺🇸 美国 | USA 3
-  - 🇺🇸US美国丨yoyapai.com
+  - 🇺🇸 美国 | USA 13
+  - 🇺🇸 美国 | USA 17
   - 🇺🇸 美国 | USA 18
+  - 🇺🇸US美国丨yoyapai.com
   - 🇺🇸 美国 | USA 2
   url: http://www.gstatic.com/generate_204
   interval: 120
@@ -372,10 +347,10 @@ proxy-groups:
   type: url-test
   proxies:
   - 🇺🇸US美国丨yoyapai.com
+  - 🇺🇸 美国 | USA 13
   - 🇺🇸 美国 | USA 2
   - 🇺🇸 美国 | USA 18
-  - 🇺🇸 美国 | USA 8
-  - 🇺🇸 美国 | USA 9
+  - 🇺🇸 美国 | USA 16
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: FALLBACK
