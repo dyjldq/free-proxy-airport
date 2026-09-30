@@ -7,7 +7,7 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-09-30T15:37:05.810146+00:00'
+generated-at: '2026-09-30T20:32:05.308686+00:00'
 proxies:
 - name: 🇭🇰 香港 | HKG 6
   server: 202.146.222.29
@@ -17,45 +17,6 @@ proxies:
   auth: H7mP2xY9kJ4nQ8wR5tF6vB3z
   sni: 202.146.222.29
   skip-cert-verify: true
-- name: 🇭🇰 香港 | HKG 2
-  server: 82.27.116.181
-  port: 8443
-  type: vless
-  uuid: ab61daa1-b7fb-486e-8946-b1da9a444685
-  tls: true
-  servername: cf2us.3rr0r.online
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /proxyip=ProxyIP.HK.CMLiussss.Net
-    headers:
-      Host: cf2us.3rr0r.online
-- name: 🇭🇰 香港 | HKG 4
-  server: 68.64.183.37
-  port: 443
-  type: vless
-  uuid: ab61daa1-b7fb-486e-8946-b1da9a444685
-  tls: true
-  servername: cf2us.3rr0r.online
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /proxyip=ProxyIP.HK.CMLiussss.Net
-    headers:
-      Host: cf2us.3rr0r.online
-- name: 🇸🇬 新加坡 | SGP 5
-  server: 139.162.61.198
-  port: 443
-  type: vless
-  uuid: ab61daa1-b7fb-486e-8946-b1da9a444685
-  tls: true
-  servername: cf2us.3rr0r.online
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /proxyip=ProxyIP.SG.CMLiussss.Net
-    headers:
-      Host: cf2us.3rr0r.online
 - name: 🇸🇬 新加坡 | SGP 7
   server: 162.159.43.187
   port: 2052
@@ -76,32 +37,6 @@ proxies:
   password: HysTeria2026!Proxy
   auth: HysTeria2026!Proxy
   skip-cert-verify: true
-- name: 🇸🇬 新加坡 | SGP 3
-  server: 134.209.108.21
-  port: 443
-  type: vless
-  uuid: ab61daa1-b7fb-486e-8946-b1da9a444685
-  tls: true
-  servername: cf2us.3rr0r.online
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /proxyip=ProxyIP.SG.CMLiussss.Net
-    headers:
-      Host: cf2us.3rr0r.online
-- name: 🇭🇰 香港 | HKG
-  server: 85.121.245.35
-  port: 443
-  type: vless
-  uuid: ab61daa1-b7fb-486e-8946-b1da9a444685
-  tls: true
-  servername: cf2us.3rr0r.online
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /proxyip=ProxyIP.HK.CMLiussss.Net
-    headers:
-      Host: cf2us.3rr0r.online
 - name: 🇸🇬 新加坡 | SGP 6
   server: 136.85.2.50
   port: 443
@@ -127,33 +62,6 @@ proxies:
     path: /
     headers:
       Host: edgetunnel-4uw.pages.dev
-  udp: true
-- name: 🇸🇬 新加坡 | SGP 4
-  server: 116.251.217.65
-  port: 443
-  type: vless
-  uuid: ab61daa1-b7fb-486e-8946-b1da9a444685
-  tls: true
-  servername: cf2us.3rr0r.online
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /proxyip=ProxyIP.SG.CMLiussss.Net
-    headers:
-      Host: cf2us.3rr0r.online
-- name: 🇺🇸 美国 | USA 11
-  server: agroup.us1.ilovegairport.com
-  port: 443
-  type: vless
-  uuid: 129e26fe-cee2-4786-9261-b29668337829
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: zJmgsHKnfBjyqC1tZRrLb7J5CD6vDqq96uYRzAiPWRg
-    short-id: 17d299fb0790e7
-  servername: us-west-2.console.aws.amazon.com
-  client-fingerprint: chrome
-  network: tcp
   udp: true
 - name: 🇺🇸 美国 | USA 9
   server: 35.199.19.90
@@ -208,20 +116,6 @@ proxies:
   client-fingerprint: chrome
   network: tcp
   udp: true
-- name: 🇺🇸 美国 | USA 4
-  server: agroup.us2.ilovegairport.com
-  port: 443
-  type: vless
-  uuid: 129e26fe-cee2-4786-9261-b29668337829
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: zJmgsHKnfBjyqC1tZRrLb7J5CD6vDqq96uYRzAiPWRg
-    short-id: 17d299fb0790e7
-  servername: us-west-2.console.aws.amazon.com
-  client-fingerprint: chrome
-  network: tcp
-  udp: true
 - name: 🇺🇸 美国 | USA
   server: mg.mangshe.xyz
   port: 2060
@@ -230,18 +124,18 @@ proxies:
   auth: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
   sni: mg.mangshe.xyz
   skip-cert-verify: true
-- name: 🇺🇸US美国丨yoyapai.com
-  type: trojan
-  server: 216.24.57.7
+- name: 🇺🇸 美国 | USA 14
+  server: 34.66.64.236
   port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  alpn:
-  - http/1.1
-  skip-cert-verify: true
-  ws-opts:
-    path: /assignment
-  udp: true
+  type: vless
+  uuid: 3893f05b-9b24-4bb1-a1dc-ba55509b0a01
+  tls: true
+  reality-opts:
+    public-key: Th2whwnn3zQaHdImi5B1wYn8hxXz3JQs3_AQCuHfanQ
+    short-id: 76d093d99ceaf06a
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+  network: tcp
 - name: 🇺🇸US美國丨yoyapai.com
   type: vless
   server: dey.lnmarketplace.net
@@ -259,31 +153,17 @@ proxies:
     mode: stream-one
   skip-cert-verify: true
   udp: true
-- name: 🇺🇸 美国 | USA 14
-  server: 34.66.64.236
+- name: 🇺🇸US美国丨yoyapai.com
+  type: trojan
+  server: 216.24.57.7
   port: 443
-  type: vless
-  uuid: 3893f05b-9b24-4bb1-a1dc-ba55509b0a01
-  tls: true
-  reality-opts:
-    public-key: Th2whwnn3zQaHdImi5B1wYn8hxXz3JQs3_AQCuHfanQ
-    short-id: 76d093d99ceaf06a
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-  network: tcp
-- name: 🇩🇪 德国 | DEU 2
-  server: 78.17.161.77
-  port: 443
-  type: vless
-  uuid: 228ecfd3-9bf0-42fd-a50e-581f84022513
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: Jx7Z4PZ5DvGyEniIJhf6LwetaZ1_WDvPdpqtBDYOjyM
-    short-id: 3670a2a25a110a
-  servername: www.nl.ozone.nl
-  client-fingerprint: firefox
-  network: tcp
+  password: humanity
+  sni: www.ignitelimit.com
+  alpn:
+  - http/1.1
+  skip-cert-verify: true
+  ws-opts:
+    path: /assignment
   udp: true
 - name: 🇧🇪 比利时 | BEL
   server: 35.233.94.80
@@ -297,19 +177,6 @@ proxies:
   servername: www.cloudflare.com
   client-fingerprint: chrome
   network: tcp
-- name: 🇰🇷 韩国 | KOR 2
-  server: 45.93.31.34
-  port: 443
-  type: vless
-  uuid: ab61daa1-b7fb-486e-8946-b1da9a444685
-  tls: true
-  servername: cf2us.3rr0r.online
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /proxyip=ProxyIP.KR.CMLiussss.Net
-    headers:
-      Host: cf2us.3rr0r.online
 - name: 🇮🇹 意大利 | ITA 2
   server: 34.154.251.151
   port: 443
@@ -358,32 +225,6 @@ proxies:
   client-fingerprint: safari
   network: tcp
   udp: true
-- name: 🇰🇷 韩国 | KOR 3
-  server: 158.247.224.240
-  port: 443
-  type: vless
-  uuid: ab61daa1-b7fb-486e-8946-b1da9a444685
-  tls: true
-  servername: cf2us.3rr0r.online
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /proxyip=ProxyIP.KR.CMLiussss.Net
-    headers:
-      Host: cf2us.3rr0r.online
-- name: 🇹🇼 🇨🇳 台湾 | TWN
-  server: 43.213.230.249
-  port: 443
-  type: vless
-  uuid: ab61daa1-b7fb-486e-8946-b1da9a444685
-  tls: true
-  servername: cf2us.3rr0r.online
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /proxyip=ProxyIP.TW.CMLiussss.Net
-    headers:
-      Host: cf2us.3rr0r.online
 - name: 🇱🇻LV拉脱维亚丨yoyapai.com
   type: vless
   server: 193.163.203.170
@@ -408,32 +249,6 @@ proxies:
     public-key: XRYeVrK7q9baNj66NmBBIX_sllPJtxOBTjrxTaQMQ2U
     short-id: 7394ea3cc2106697
   servername: www.cloudflare.com
-  client-fingerprint: chrome
-  network: tcp
-- name: 🇨🇦 加拿大 | CAN
-  server: 193.123.236.206
-  port: 443
-  type: vless
-  uuid: ab61daa1-b7fb-486e-8946-b1da9a444685
-  tls: true
-  servername: cf2us.3rr0r.online
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /proxyip=ProxyIP.KR.CMLiussss.Net
-    headers:
-      Host: cf2us.3rr0r.online
-- name: 🇩🇪 德国 | DEU 5
-  server: 31.70.111.146
-  port: 443
-  type: vless
-  uuid: 84ed0e09-6803-4ef9-a977-74b657d971e5
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: ZNmuzIn-zyJi2C0sWRpL9fsMYCgYauXpJElXTqY_LEE
-    short-id: d7de3a6ff4018957
-  servername: www.apple.com
   client-fingerprint: chrome
   network: tcp
 - name: 🇮🇪 爱尔兰 | IRL
@@ -507,19 +322,6 @@ proxies:
   sni: russiapower.accesscam.org
   skip-cert-verify: true
   udp: true
-- name: 🇰🇷 韩国 | KOR
-  server: 146.56.135.196
-  port: 443
-  type: vless
-  uuid: ab61daa1-b7fb-486e-8946-b1da9a444685
-  tls: true
-  servername: cf2us.3rr0r.online
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /proxyip=ProxyIP.KR.CMLiussss.Net
-    headers:
-      Host: cf2us.3rr0r.online
 - name: 🇹🇭 泰国 | THA
   server: th1.zestapp778.com
   port: 443
@@ -539,27 +341,6 @@ proxies:
   servername: www.cloudflare.com
   client-fingerprint: chrome
   network: tcp
-- name: 🇩🇪 德国 | DEU
-  server: agroup.de1.ilovegairport.com
-  port: 443
-  type: vless
-  uuid: 129e26fe-cee2-4786-9261-b29668337829
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: kGdP0X0DwcMbXovNjpQ3o7ubghwu1dedhcoFtLFOnBk
-    short-id: 1fc709
-  servername: eu-central-1.console.aws.amazon.com
-  client-fingerprint: chrome
-  network: tcp
-  udp: true
-- name: 🇲🇽 墨西哥 | MEX
-  server: mx.tronsg.com
-  port: 443
-  type: trojan
-  password: Trojan@82164024
-  sni: mx.tronsg.com
-  skip-cert-verify: true
 - name: 🇳🇱 荷兰 | NLD 3
   server: 217.149.26.11
   port: 8443
@@ -574,24 +355,19 @@ proxies:
   client-fingerprint: chrome
   network: tcp
   udp: true
-- name: 🇲🇽 墨西哥 | MEX 2
-  server: 34.51.119.243
-  port: 443
+- name: 🇩🇪DE德国丨yoyapai.com_12
   type: vless
-  uuid: 79bc7b01-6e4e-4365-a120-fefac8182bd9
+  server: 169.40.42.229
+  port: 443
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  servername: yahoo.com
   tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: ios
   reality-opts:
-    public-key: vFcM44RcbcO5jcrSWHLd_0exXAnnJLhpCNnMrWCwlzI
-    short-id: 65f01b4b99e52015
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-  network: tcp
-- name: 🇬🇧 英国 | GBR
-  server: 129.151.80.105
-  port: 61312
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: UbXgReuNGrnA2SyFVor+v+XW9RQvEyaTV/R9MwPS8PI=
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  skip-cert-verify: true
   udp: true
 - name: 🇭🇺 匈牙利 | HUN
   server: 37.221.210.113
@@ -606,20 +382,6 @@ proxies:
     path: /cdn/packages/runtime-core.tar.gz
     headers:
       Host: hk.152568.xyz
-  udp: true
-- name: 🇩🇪DE德国丨yoyapai.com_12
-  type: vless
-  server: 169.40.42.229
-  port: 443
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-  servername: yahoo.com
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: ios
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
-  skip-cert-verify: true
   udp: true
 - name: 🇪🇸 西班牙 | ESP
   server: 34.175.19.8
@@ -638,39 +400,25 @@ proxy-groups:
   type: url-test
   proxies:
   - 🇭🇰 香港 | HKG 6
-  - 🇭🇰 香港 | HKG 2
-  - 🇭🇰 香港 | HKG 4
-  - 🇸🇬 新加坡 | SGP 5
   - 🇸🇬 新加坡 | SGP 7
   - 🇭🇰 香港 | HKG 5
-  - 🇸🇬 新加坡 | SGP 3
-  - 🇭🇰 香港 | HKG
   - 🇸🇬 新加坡 | SGP 6
   - 🇯🇵 日本 | JPN
-  - 🇸🇬 新加坡 | SGP 4
-  - 🇺🇸 美国 | USA 11
   - 🇺🇸 美国 | USA 9
   - 🇺🇸 美国 | USA 8
   - 🇺🇸 美国 | USA 6
   - 🇺🇸 美国 | USA 7
-  - 🇺🇸 美国 | USA 4
   - 🇺🇸 美国 | USA
-  - 🇺🇸US美国丨yoyapai.com
-  - 🇺🇸US美國丨yoyapai.com
   - 🇺🇸 美国 | USA 14
-  - 🇩🇪 德国 | DEU 2
+  - 🇺🇸US美國丨yoyapai.com
+  - 🇺🇸US美国丨yoyapai.com
   - 🇧🇪 比利时 | BEL
-  - 🇰🇷 韩国 | KOR 2
   - 🇮🇹 意大利 | ITA 2
   - 🇷🇺 俄罗斯 | RUS 2
   - 🇳🇱 荷兰 | NLD 4
   - 🇱🇹 立陶宛 | LTU
-  - 🇰🇷 韩国 | KOR 3
-  - 🇹🇼 🇨🇳 台湾 | TWN
   - 🇱🇻LV拉脱维亚丨yoyapai.com
   - 🇩🇪 德国 | DEU 3
-  - 🇨🇦 加拿大 | CAN
-  - 🇩🇪 德国 | DEU 5
   - 🇮🇪 爱尔兰 | IRL
   - 🇩🇪 德国 | DEU 6
   - 🇮🇹 意大利 | ITA
@@ -678,16 +426,11 @@ proxy-groups:
   - 🇸🇪 瑞典 | SWE
   - 🇩🇪 德国 | DEU 4
   - 🇪🇪爱沙尼亚丨yoyapai.com
-  - 🇰🇷 韩国 | KOR
   - 🇹🇭 泰国 | THA
   - 🇪🇸 西班牙 | ESP 2
-  - 🇩🇪 德国 | DEU
-  - 🇲🇽 墨西哥 | MEX
   - 🇳🇱 荷兰 | NLD 3
-  - 🇲🇽 墨西哥 | MEX 2
-  - 🇬🇧 英国 | GBR
-  - 🇭🇺 匈牙利 | HUN
   - 🇩🇪DE德国丨yoyapai.com_12
+  - 🇭🇺 匈牙利 | HUN
   - 🇪🇸 西班牙 | ESP
   url: http://www.gstatic.com/generate_204
   interval: 120
@@ -695,10 +438,7 @@ proxy-groups:
   type: url-test
   proxies:
   - 🇭🇰 香港 | HKG 6
-  - 🇭🇰 香港 | HKG 2
-  - 🇭🇰 香港 | HKG 4
   - 🇭🇰 香港 | HKG 5
-  - 🇭🇰 香港 | HKG
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: JP-POOL
@@ -710,31 +450,25 @@ proxy-groups:
 - name: US-POOL
   type: url-test
   proxies:
-  - 🇺🇸 美国 | USA 11
   - 🇺🇸 美国 | USA 9
   - 🇺🇸 美国 | USA 8
   - 🇺🇸 美国 | USA 6
   - 🇺🇸 美国 | USA 7
-  - 🇺🇸 美国 | USA 4
   - 🇺🇸 美国 | USA
-  - 🇺🇸US美国丨yoyapai.com
-  - 🇺🇸US美國丨yoyapai.com
   - 🇺🇸 美国 | USA 14
+  - 🇺🇸US美國丨yoyapai.com
+  - 🇺🇸US美国丨yoyapai.com
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: AI-POOL
   type: url-test
   proxies:
-  - 🇺🇸US美国丨yoyapai.com
   - 🇸🇬 新加坡 | SGP 7
+  - 🇺🇸US美国丨yoyapai.com
   - 🇺🇸 美国 | USA 8
-  - 🇺🇸 美国 | USA 11
-  - 🇺🇸 美国 | USA 4
-  - 🇺🇸 美国 | USA 7
   - 🇺🇸 美国 | USA 14
-  - 🇺🇸 美国 | USA
-  - 🇲🇽 墨西哥 | MEX 2
   - 🇺🇸 美国 | USA 9
+  - 🇺🇸 美国 | USA 6
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: FALLBACK
